@@ -1,3 +1,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+button {
+  all: unset;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+}

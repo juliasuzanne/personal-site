@@ -20,7 +20,7 @@ export function Painting() {
   };
 
   return (
-    <div>
+    <div className="container">
       {items.map((item) => (
         <button
           onClick={() => {
