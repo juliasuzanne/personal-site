@@ -1,9 +1,9 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./Header";
 import { Home } from "./Home";
 import { AYAB } from "./AYAB";
 import { Footer } from "./Footer";
 import { Painting } from "./Painting";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Unity } from "./Unity";
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path="/paintings" element={<Painting />} />
           <Route path="/unity" element={<Unity />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }
