@@ -1,7 +1,9 @@
 export function Footer() {
   return (
-    <footer>
-      <p>Copyright 2022</p>
-    </footer>
+    <div id="footer">
+      <p>
+        <img className="sign" src="/images/signature_julia.png" /> © 2022
+      </p>
+    </div>
   );
 }

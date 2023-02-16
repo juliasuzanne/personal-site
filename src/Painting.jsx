@@ -20,19 +20,14 @@ export function Painting() {
   };
 
   return (
-    <div className="container">
-      {items.map((item) => (
-        <button
-          onClick={() => {
-            handleShow();
-            setCurrentItem(item.image_url);
-            setDescription(item.description);
-            console.log(currentItem);
-          }}
-        >
-          <img src={item.image_url} width="200px" />
-        </button>
-      ))}
+    <div>
+      <a className="link" id="home" href="/">
+        {" "}
+        home{" "}
+      </a>
+      <div className="paintings_container">
+        <img width="80%" src="/images/paintings.jpg" />
+      </div>
     </div>
   );
 }

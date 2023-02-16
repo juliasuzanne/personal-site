@@ -11,3 +11,105 @@ footer {
   bottom: 0;
 
 }
+
+a {
+  z-index: 50;
+}
+
+.link {
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 10px;
+
+}
+
+#website {
+  left: 200px;
+
+}
+
+#paintings {
+  left: 300px;
+
+}
+
+#ayab {
+  left: 400px;
+}
+
+#unity {
+  left: 500px;
+}
+
+.paintings_container{
+  justify-content: center;
+}
+
+
+.unity_container{
+  padding: 50px;
+  width: 600px;
+}
+
+.unity_description{
+  padding: 10px;
+  border: 1px solid black;
+  left: 550px;
+  top: 200px;
+  position:absolute;
+  width: 200px;
+  background-color: white;
+  z-index: 50;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#home{
+  left: 50px;
+}
+
+#pupils {
+  position: absolute;
+  left: var(--left);
+  top: var(--top);
+}
+
+
+.face{
+  left: 100px;
+  top: 150px;
+  position: absolute;
+
+}
+
+.description{
+  left: 550px;
+  top: 200px;
+  position:absolute;
+  width: 200px;
+  background-color: white;
+  z-index: 50;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+.bold {
+  font-weight: "bold";
+}
+
+#footer{
+  position: fixed;
+  left: 55px;
+  bottom: 0;
+
+  text-align: center;
+}
+
+.sign{
+  position: fixed;
+  left: 5px;
+  bottom: 12;
+  width: 50px;
+  text-align: center;
+}
+
