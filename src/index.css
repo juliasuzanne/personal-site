@@ -64,6 +64,18 @@ a {
   font-family:'Courier New', Courier, monospace;
 }
 
+.header{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 50px;
+
+}
+
+.fonted{
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 50px;
+
+}
+
 #home{
   left: 50px;
 }
