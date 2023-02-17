@@ -25,6 +25,15 @@ a {
   padding-left: 40px;
 }
 
+.unityvideo{
+  width: 60vw;
+  height: 40vh;
+}
+
+#unityvideo{
+  padding-left: 10%;
+}
+
 #one{
 }
 
@@ -69,15 +78,32 @@ a {
 
 
 .unity_container{
-  padding: 50px;
+  padding-left: 150px;
+  padding-bottom: 50px;
   width: 600px;
 }
 
 .unity_description{
   padding: 10px;
   border: 1px solid black;
-  left: 550px;
+  left: 590px;
   top: 200px;
+  position:absolute;
+  width: 200px;
+  background-color: white;
+  z-index: 50;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.statue {
+  padding-left: 40%;
+}
+
+.unity_description_2{
+  padding: 10px;
+  border: 1px solid black;
+  left: 50px;
+  top: 380px;
   position:absolute;
   width: 200px;
   background-color: white;
