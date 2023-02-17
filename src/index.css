@@ -72,6 +72,11 @@ a {
   left: 500px;
 }
 
+#yee {
+ left: 600px;
+}
+
+
 .paintings_container{
   justify-content: center;
 }
@@ -98,6 +103,7 @@ a {
 .statue {
   padding-left: 40%;
 }
+
 
 .unity_description_2{
   padding: 10px;

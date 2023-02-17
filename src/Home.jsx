@@ -22,6 +22,10 @@ export function Home() {
         Unity{" "}
       </a>
 
+      <a className="link" id="yee" href="/yee">
+        Family History Project
+      </a>
+
       <div className="face">
         <Face />
       </div>
