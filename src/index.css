@@ -16,6 +16,27 @@ a {
   z-index: 50;
 }
 
+.game_image {
+  width: 300px;
+  padding: 10px;
+}
+
+.games_images{
+  padding-left: 40px;
+}
+
+#one{
+}
+
+#video {
+  padding-left: 10%;
+}
+
+.websitevideo {
+  width: 80vw;
+  height: 50vh;
+}
+
 .link {
   text-decoration: none;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

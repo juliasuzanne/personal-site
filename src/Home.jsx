@@ -3,7 +3,7 @@ export function Home() {
   return (
     <div>
       {/* <button onClick={() => (window.location.href = "/paintings")}> Paintings </button> */}
-      <a className="link" id="website" href="https://www.moon--egg.com/">
+      <a className="link" id="website" href="/website">
         {" "}
         website{" "}
       </a>
