@@ -23,7 +23,7 @@ export function Home() {
       </a>
 
       <a className="link" id="yee" href="/yee">
-        Family History Project
+        Yee History Project
       </a>
 
       <div className="face">
