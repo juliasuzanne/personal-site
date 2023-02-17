@@ -56,14 +56,14 @@ export function AYAB() {
       <img src="/images/dress.png" />
       <p className="fonted">
         {" "}
-        I really enjoy the trompe l'oeil work of Jean-Paul Gaultier and others in the fashion industry, so I have been
+        I really like the aesthetic and reality-bending elements of the trompe l'oeil fashion trend, so I have been
         experimenting with using this "printing" method to create my own trompe l'oeil garments.{" "}
       </p>
       <img width="300px" src="/images/audrey.png" />
       <img width="400px" src="/images/jacket.png" />
       <p className="fonted">
-        I also tried felting with wool thread, with mixed results. It shrinks so much it becomes very expensive. It's
-        possible to get a higher resolution per inch, though. Pictures to follow.
+        I tried felting with wool thread, with mixed results. It shrinks so much it becomes very expensive, although I
+        like that it's possible to get a higher resolution. Pictures to follow.
       </p>
     </div>
   );
