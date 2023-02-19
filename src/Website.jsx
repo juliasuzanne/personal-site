@@ -50,6 +50,8 @@ export function Website() {
         <img id="modalImage" src={currentImage} />
         <p className="fonted"> {textDescription} </p>
       </Modal>
+      <br></br>
+      <h4 className="header">Click images below for more information</h4>
       <div className="games_images">
         <img
           className="game_image"
