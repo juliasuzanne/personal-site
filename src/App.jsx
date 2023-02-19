@@ -7,6 +7,7 @@ import { Painting } from "./Painting";
 import { Unity } from "./Unity";
 import { Website } from "./Website";
 import { FamilyHistory } from "./FamilyHistory";
+import { Snake } from "./Snake/Snake";
 
 Website;
 
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/snake" element={<Snake />} />
           <Route path="/yee" element={<FamilyHistory />} />
           <Route path="/" element={<Home />} />
           <Route path="/ayab" element={<AYAB />} />

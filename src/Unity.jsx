@@ -1,10 +1,6 @@
 export function Unity() {
   return (
     <div>
-      <a className="link" id="home" href="/">
-        {" "}
-        home{" "}
-      </a>
       <div className="unity_description">
         <p>
           {" "}

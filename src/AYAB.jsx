@@ -1,10 +1,6 @@
 export function AYAB() {
   return (
     <div>
-      <a className="link" id="home" href="/">
-        {" "}
-        home{" "}
-      </a>
       <br></br>
       <h1 className="header">
         {" "}

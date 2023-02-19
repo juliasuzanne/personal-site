@@ -17,11 +17,6 @@ export function Website() {
 
   return (
     <div>
-      <a className="link" id="home" href="/">
-        {" "}
-        home{" "}
-      </a>
-      <br></br>
       <h2 className="header"> Experiments with React - Point and Click style interaction with original artwork</h2>
       <a href="https://www.moon--egg.com/" target="_blank">
         <h3 className="header"> Visit the live site here! </h3>

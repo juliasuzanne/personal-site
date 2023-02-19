@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export function Painting() {
+  const [errors, setErrors] = useState([]);
   const [items, setItems] = useState([]);
+  const [show, setShow] = useState(true);
+  const [description, setDescription] = useState("");
   const [currentItem, setCurrentItem] = useState([]);
-  const [description, setDescription] = useState([]);
 
   const handleGetItems = () => {
     axios.get(`https://moon--egg.fly.dev/items.json?cat=painting`).then((response) => {
@@ -21,10 +23,6 @@ export function Painting() {
 
   return (
     <div>
-      <a className="link" id="home" href="/">
-        {" "}
-        home{" "}
-      </a>
       <div className="paintings_container">
         <img width="80%" src="/images/paintings.jpg" />
       </div>

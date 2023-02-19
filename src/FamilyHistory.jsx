@@ -1,10 +1,6 @@
 export function FamilyHistory() {
   return (
     <div>
-      <a className="link" id="home" href="/">
-        {" "}
-        home{" "}
-      </a>
       <br></br>
       <h2 className="header">Yee Family History Project </h2>
       <p className="fonted"> My mom's side of the family, working on recording history.</p>
