@@ -1,11 +1,10 @@
 export function AYAB() {
   return (
     <div>
-      <br></br>
-      <h1 className="header">
+      <h2 className="header">
         {" "}
-        Experimenting with open source software, <a href="https://ayab-knitting.com/"> AYAB </a>{" "}
-      </h1>
+        Experimenting with open source software &nbsp;<a href="https://ayab-knitting.com/">AYAB </a>{" "}
+      </h2>
       <p className="fonted">
         {" "}
         During the pandemic, I discovered a project called All Yarns Are Beautiful. It's open source software that
