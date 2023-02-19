@@ -17,6 +17,11 @@ export function Header() {
             </a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="/unity">
+              Unity
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="/snake">
               Play Snake
             </a>
@@ -24,11 +29,6 @@ export function Header() {
           <li className="nav-item">
             <a className="nav-link" href="/yee">
               Yee History Project
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/paintings">
-              Paintings
             </a>
           </li>
         </ul>
