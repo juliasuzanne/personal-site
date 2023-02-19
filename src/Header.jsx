@@ -31,6 +31,11 @@ export function Header() {
               Yee History Project
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/paintings">
+              Paintings
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
