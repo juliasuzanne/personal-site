@@ -97,7 +97,8 @@ a {
 }
 
 .paintings_container{
-  justify-content: center;
+  display: flex;
+  justify-content: center; 
 }
 
 #red{
@@ -107,12 +108,11 @@ a {
 .navbar-snake{
   padding: 30px;
   position: absolute;}
-  
+
 .snake{
   display: flex;
   padding: 50px;
-  justify-content: center;
-  
+  justify-content: center; 
 
 }
 
