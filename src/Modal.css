@@ -41,10 +41,8 @@ border-radius: 10px;
 
 #modal-main {
   color: darkgrey;
-  background-color: rgba(14, 14, 14, 0.806);
+  background-color:rgba(0, 0, 0, 0.85);
   position: fixed;
-  border-radius: 50px;
-  width: 400px;
   height: auto;
   top: 50%;
   left: 50%;
@@ -53,12 +51,11 @@ border-radius: 10px;
 }
 
 #modal-main button.close {
-  font-size: 2em;
+  font-size: 1em;
   background: none;
+  top: .1em;
   border: none;
   position: absolute;
-  top: 0.25em;
-  right: 0.25em;
   color: white;
   right: 0.2em;
 }

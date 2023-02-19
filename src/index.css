@@ -76,6 +76,10 @@ a {
  left: 600px;
 }
 
+#modalImage{
+  height: 30vw;
+}
+
 
 .paintings_container{
   justify-content: center;
