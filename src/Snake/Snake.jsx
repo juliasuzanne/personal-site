@@ -89,27 +89,36 @@ export function Snake() {
   }, [snake, apple, gameOver]);
 
   return (
-    <div>
-      <div className="snake">
-        <div role="button" tabIndex="0" onKeyDown={(e) => moveSnake(e)}>
-          <canvas
-            style={{ border: "1px solid green" }}
-            ref={canvasRef}
-            width={`${CANVAS_SIZE[0]}px`}
-            height={`${CANVAS_SIZE[1]}px`}
-          />
-
-          <div id="snakeText">
-            <button onClick={startGame} className="header">
-              Start Game
-            </button>
-            <p className="fonted">POINTS: {points} </p>
-            {gameOver && (
-              <div id="red" className="fonted">
-                GAME OVER!
-              </div>
-            )}
-          </div>
+    <div className="snake">
+      <div role="button" tabIndex="0" onKeyDown={(e) => moveSnake(e)}>
+        <canvas
+          onClick={startGame}
+          style={{ border: "1px solid green" }}
+          ref={canvasRef}
+          width={`${CANVAS_SIZE[0]}px`}
+          height={`${CANVAS_SIZE[1]}px`}
+        />
+        <div>
+          <nav className="navbar">
+            <div id="navbarSnake">
+              <ul className="navbar-nav">
+                <li className="nav-item" onClick={startGame}>
+                  <p className="nav-link"> Click to start </p>
+                </li>
+                <li className="nav-item">
+                  <p className="nav-link"> POINTS: {points} </p>
+                </li>
+                <li className="nav-item" onClick={startGame}>
+                  {gameOver && (
+                    <p id="red" className="nav-link">
+                      {" "}
+                      GAME OVER!{" "}
+                    </p>
+                  )}
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
     </div>

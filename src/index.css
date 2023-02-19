@@ -85,14 +85,16 @@ a {
  left: 600px;
 }
 
-#snake{
-  left: 800px;
+#snakeText{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
 } 
+
 
 #modalImage{
   height: 30vw;
 }
-
 
 .paintings_container{
   justify-content: center;
@@ -102,12 +104,20 @@ a {
   color: red;
 }
 
+.navbar-snake{
+  padding: 30px;
+  position: absolute;}
+  
 .snake{
-  background-color: green;
+  display: flex;
   padding: 50px;
-  position: absolute;
   justify-content: center;
-  left: 25vw;
+  
+
+}
+
+.snakebackground {
+  background-color: green;
 }
 
 .unity_container{
