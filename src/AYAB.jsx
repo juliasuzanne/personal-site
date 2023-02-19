@@ -3,7 +3,10 @@ export function AYAB() {
     <div>
       <h2 className="header">
         {" "}
-        Experimenting with open source software &nbsp;<a href="https://ayab-knitting.com/">AYAB </a>{" "}
+        Experimenting with open source software &nbsp;
+        <a href="https://ayab-knitting.com/" target="_blank">
+          AYAB{" "}
+        </a>{" "}
       </h2>
       <p className="fonted">
         {" "}
