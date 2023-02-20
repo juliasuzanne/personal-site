@@ -90,9 +90,9 @@ export function Snake() {
 
   return (
     <div>
-      <div id="center-div-snake">
+      {/* <div id="center-div-snake">
         <h2 className="header"> Snake Game </h2>
-      </div>
+      </div> */}
       <div className="snake">
         <div role="button" tabIndex="0" onKeyDown={(e) => moveSnake(e)}>
           <canvas
