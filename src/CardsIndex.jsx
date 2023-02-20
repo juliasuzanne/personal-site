@@ -142,10 +142,9 @@ export function CardsIndex() {
             onClick={() => {
               handleShowImage();
               setTitle("About: Present");
-              setCurrentCard("Energies and events that are in the past yet still effect you");
-              setTextDescription(`
-            How your past either holds you back (blocks) or helps you move forward (growth)
-            What you need to take from the past and use to your advantage today.`);
+              setCurrentCard("What is going on for you right now.");
+              setTextDescription(`The energy of the present moment.
+              Opportunities and challenges that are currently being presented to you.`);
             }}
           >
             {" "}
@@ -225,10 +224,12 @@ export function CardsIndex() {
           onClick={() => {
             handleShowImage();
             setTitle("About: Past");
-            setCurrentCard("What is going on for you right now.");
+            setCurrentCard(
+              "Energies and events that are in the past yet still effect you  is going on for you right now."
+            );
             setTextDescription(`
-            The energy of the present moment.
-            Opportunities and challenges that are currently being presented to you`);
+            How your past either holds you back (blocks) or helps you move forward (growth)
+            What you need to take from the past and use to your advantage today.`);
           }}
         >
           Past &nbsp; &nbsp; &nbsp; &nbsp;
