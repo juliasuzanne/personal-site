@@ -12,7 +12,7 @@ export function Painting() {
         <br></br>
         <p className="fonted" id="center-div-painting">
           {" "}
-          Some oil paintings I've done since 2020. Mostly of images taken by my sister Lauren.{" "}
+          Some oil paintings I've done since 2020. Mostly from photos taken by my sister Lauren.{" "}
         </p>
       </div>
       <div className="paintings_container">
