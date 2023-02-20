@@ -26,8 +26,8 @@ a {
 }
 
 .unityvideo{
-  width: 60vw;
-  height: 40vh;
+  width: 550px;
+  height: 350px;
 }
 
 #unityvideo{
@@ -118,17 +118,24 @@ a {
   background-color: green;
 }
 
+#center-div-snake{
+  display: flex;
+  justify-content: center; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 .unity_container{
   padding-left: 150px;
   padding-bottom: 50px;
+  padding-top: 50px;
   width: 600px;
 }
 
 .unity_description{
   padding: 10px;
   border: 1px solid black;
-  left: 590px;
-  top: 200px;
+  left: 690px;
+  top: 120px;
   position:absolute;
   width: 200px;
   background-color: white;
@@ -145,9 +152,9 @@ a {
   padding: 10px;
   border: 1px solid black;
   left: 50px;
-  top: 380px;
+  top: 350px;
   position:absolute;
-  width: 200px;
+  width: 120px;
   background-color: white;
   z-index: 50;
   font-family:'Courier New', Courier, monospace;
@@ -167,6 +174,7 @@ a {
 .fonted{
   font-family:'Courier New', Courier, monospace;
   margin-left: 50px;
+  max-width: 900px;
 
 }
 
@@ -219,3 +227,8 @@ a {
   text-align: center;
 }
 
+
+#center-div-painting{
+  display: flex;
+  justify-content: center;
+}

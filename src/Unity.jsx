@@ -1,6 +1,7 @@
 export function Unity() {
   return (
     <div>
+      <h2 className="header">Learning C# Through Unity</h2>
       <div className="unity_description">
         <p>
           {" "}

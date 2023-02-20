@@ -129,10 +129,10 @@ export function CardsIndex() {
             );
           }}
         >
-          <h3 className="tarot" id="center-div">
+          <h2 className="tarot" id="center-div">
             {" "}
             About{" "}
-          </h3>
+          </h2>
         </button>
       </div>
       <div className="layout">
