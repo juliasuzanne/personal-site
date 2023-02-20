@@ -10,12 +10,12 @@ export function AYAB() {
       </h2>
       <p className="fonted">
         {" "}
-        During the pandemic, I discovered a project called All Yarns Are Beautiful. It's open source software that
-        connects a laptop to an 80s knitting machine to create custom textiles.
+        During the pandemic, I discovered this cool project called All Yarns Are Beautiful. It's open source software
+        that connects a laptop to an 80s knitting machine to create custom textiles.
       </p>
       <p className="fonted">
-        I bought a cheap knitting machine off eBay, restored it, soldered the custom Arduino shield following tutorials,
-        and installed the software. I am documenting my work using it here!
+        I bought a knitting machine off eBay, restored it, soldered the custom Arduino shield following tutorials, and
+        installed the software. I am documenting my work using it here!
       </p>
       <img className="unity_container" src="/images/ayab.jpg" />
       <div className="calibration">
