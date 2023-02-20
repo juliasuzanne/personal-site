@@ -1,0 +1,82 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card-div{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.tarot {
+  font-family:'Courier New', Courier, monospace;
+}
+
+#p-card{
+  font-family: monospace;
+
+}
+
+
+.button-card {
+  background-image: url("/images/cardback.png");
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: rgb(36, 23, 1);
+  border-radius: 10px;
+}
+
+.cardy{
+  background-color: rgba(128, 128, 128, 0.402);
+  height: 100%;
+  width: 100%;
+}
+
+.label-div{
+  display: flex;
+  justify-content: center;
+}
+
+#symbol{
+padding: 0px;
+justify-content: center;
+position: relative;
+width: 100%;
+filter: invert(0.8);
+
+}
+
+#pad1{
+  padding: 20px;
+  transform: rotate(-0.01turn);
+}
+
+#pad2{
+  padding: 12px;
+  transform: rotate(0.005turn);
+}
+
+#pad3{
+  padding: 8px;
+}
+
+#card{
+  width: 150px;
+  height: 270px;
+  z-index: 1;
+}
+
+.layout{
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  z-index: 1;
+}
+
+.describe-spread{
+  display: flex;
+  justify-content: center;
+}

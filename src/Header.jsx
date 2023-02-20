@@ -36,6 +36,11 @@ export function Header() {
               Paintings
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/tarot">
+              Tarot Card Reading
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

@@ -8,6 +8,7 @@ import { Unity } from "./Unity";
 import { Website } from "./Website";
 import { FamilyHistory } from "./FamilyHistory";
 import { Snake } from "./Snake/Snake";
+import { CardsIndex } from "./CardsIndex";
 
 Website;
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/paintings" element={<Painting />} />
           <Route path="/unity" element={<Unity />} />
           <Route path="/website" element={<Website />} />
+          <Route path="/tarot" element={<CardsIndex />} />
         </Routes>
         <Footer />
       </BrowserRouter>
