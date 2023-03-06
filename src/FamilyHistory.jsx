@@ -3,7 +3,6 @@ export function FamilyHistory() {
     <div>
       <h2 className="header">Yee Family History Project </h2>
       <p className="fonted"> My mom's side of the family, working on recording history.</p>
-      <p className="fonted">pictures, interactive family tree, and recipes coming soon!</p>
       <a className="header" href="https://github.com/juliasuzanne/family-tree-frontend" target="_blank">
         {" "}
         GitHub Repo here
@@ -13,7 +12,7 @@ export function FamilyHistory() {
       </a>
       <p className="fonted">
         Website is still being developed, but so far I have used GoJS to create an interactive family tree with photos,
-        birthday, and custom colors and styling.
+        birthday, and custom colors and styling. Recipes, photos, and historical documents coming soon!
       </p>
     </div>
   );
