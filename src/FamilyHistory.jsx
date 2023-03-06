@@ -11,7 +11,7 @@ export function FamilyHistory() {
       <a className="header" href="https://yeefamilyhistory.org/org_chart.html">
         Website with Interactive Family Tree
       </a>
-      <p>
+      <p className="fonted">
         Website is still being developed, but so far I have used GoJS to create an interactive family tree with photos,
         birthday, and custom colors and styling.
       </p>
