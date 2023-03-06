@@ -15,7 +15,7 @@ export function FamilyHistory() {
         birthday, and custom colors and styling. Recipes, photos, and historical documents coming soon!
       </p>
       <div className="games_images">
-        <img className="game_image" id="two" src="TREEEXAMPLE.png" />
+        <img width="50%" stroke="2px" src="/images/TREEEXAMPLE.png" />
       </div>
     </div>
   );

@@ -90,9 +90,11 @@ export function Snake() {
 
   return (
     <div>
-      {/* <div id="center-div-snake">
-        <h2 className="header"> Snake Game </h2>
-      </div> */}
+      <div id="center-div-snake">
+        <h4 className="header"> Snake Game </h4>
+      </div>
+      <p id="center-div-snake"> Works by live updating an array! </p>
+      <br></br>
       <div className="snake">
         <div role="button" tabIndex="0" onKeyDown={(e) => moveSnake(e)}>
           <canvas
@@ -107,7 +109,7 @@ export function Snake() {
               <div id="navbarSnake">
                 <ul className="navbar-nav">
                   <li className="nav-item" onClick={startGame}>
-                    <p className="nav-link"> Click to start </p>
+                    <p className="nav-link"> Click to start - use the arrow keys to move the snake</p>
                   </li>
                   <li className="nav-item">
                     <p className="nav-link"> POINTS: {points} </p>
