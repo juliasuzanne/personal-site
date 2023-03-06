@@ -14,6 +14,9 @@ export function FamilyHistory() {
         Website is still being developed, but so far I have used GoJS to create an interactive family tree with photos,
         birthday, and custom colors and styling. Recipes, photos, and historical documents coming soon!
       </p>
+      <div className="games_images">
+        <img className="game_image" id="two" src="TREEEXAMPLE.png" />
+      </div>
     </div>
   );
 }
