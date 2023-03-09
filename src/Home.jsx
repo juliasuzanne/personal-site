@@ -40,7 +40,8 @@ export function Home() {
         <p> Hello!</p>
         <p>
           {" "}
-          My name is Julia Grimes. I'm an artist and programmer based out of Boston, MA. Thanks for visiting my site!
+          My name is Julia Grimes. I'm an artist and programmer based out of Boston, MA. I enjoy painting and baking in
+          my free time. Thanks for visiting my site!
         </p>
         <p className="bold"> Get in touch: </p>
         <p> email: julia.s.grimes@gmail.com </p>
