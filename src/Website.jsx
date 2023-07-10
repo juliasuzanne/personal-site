@@ -18,9 +18,7 @@ export function Website() {
   return (
     <div>
       <h2 className="header"> Experiments with React - Point and Click style interaction with original artwork</h2>
-      <a href="https://www.moon--egg.com/" target="_blank">
-        <h3 className="header"> Visit the live site here! </h3>
-      </a>
+
       <p className="fonted">
         <p> Built with React and Ruby on Rails, deployed with Fly.io and Netlify</p>
         Features:
